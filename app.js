@@ -27,7 +27,7 @@ app.configure(function () {
 		return next();
 	});
 	app.use(express.static(__dirname + '/public'));
-	app.use(express.favicon());
+	app.use(express.favicon('public/favicon.ico'));
 	app.use(express.json());
 	app.use(express.urlencoded());
 	app.use(express.cookieParser());
@@ -45,7 +45,7 @@ app.configure(function () {
 });
 
 app.get('/', function(req, res) {
-	res.sendfile(__dirname + '/public/index.html');
+	res.sendfile(__dirname + '/views/index.html');
 });
 
 app.configure('development', function () {

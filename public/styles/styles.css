@@ -62,8 +62,27 @@ div#working-gophers {
     left: 50%;
 
     margin-left: -300px;
-    bottom: 0px;
+    bottom: 0;
     zoom: 50%;
     opacity: 0.6;
     overflow: hidden;
+}
+
+div#helmet-gopher {
+    display: none;
+}
+
+@media (min-width: 1024px) {
+    div#helmet-gopher {
+        display: inherit;
+        position: absolute;
+        text-align: center;
+        width: 600px;
+        height: 600px;
+        bottom: 0;
+        right: 0;
+        zoom: 50%;
+        opacity: 0.6;
+        overflow: hidden;
+    }
 }
