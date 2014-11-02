@@ -1,0 +1,33 @@
+{
+  "name": "helyx-io-webapp",
+  "description": "Helyx.io webapp",
+  "version": "0.1.0",
+  "private": true,
+  "author": "Alexis Kinsella <alexis.kinsella@gmail.com>",
+  "engines": {
+    "node": ">= 0.10.0 < 0.11.0"
+  },
+  "bugs": {
+    "url": "http://github.com/helyx-io/helyx-io-webapp/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "keywords": [],
+  "repository": "git@github.org:helyx-io/helyx-io-webapp.git",
+  "main": "app",
+  "contributors": [
+    {
+      "name": "Alexis Kinsella",
+      "email": "alexis.kinsella@gmail.com"
+    }
+  ],
+  "dependencies": {
+    "express": "3.x"
+  },
+  "devDependencies": {},
+  "scripts": {}
+}
